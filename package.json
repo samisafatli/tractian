@@ -1,0 +1,20 @@
+{
+  "name": "tractian",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "\t",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "yarn build && node dist/index.js"
+  },
+  "devDependencies": {
+    "@types/module-alias": "^2.0.1",
+    "@types/node": "^18.11.17",
+    "typescript": "*"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.2",
+    "mongodb": "^4.13.0"
+  }
+}
