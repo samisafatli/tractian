@@ -3,7 +3,7 @@
     "target": "es2019",
     "moduleResolution": "node",
     "module": "commonjs",
-    "lib": ["es2020"],
+    "lib": ["es2020", "ES6", "DOM"],
     "sourceMap": true,
     "outDir": "dist",
     "strict": true,
