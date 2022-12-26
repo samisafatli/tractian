@@ -12,7 +12,7 @@ const AssetSchema = new mongoose.Schema({
     owner: requiredValue(String, true),
     status: requiredValue(String, true),
     healthLevel: requiredValue(String, true),
-    unitID: requiredValue(ObjectID, true)
+    unitID: requiredValue(ObjectID, false)
 })
 
 mongoose.model('Asset', AssetSchema)
