@@ -1,4 +1,4 @@
 [[redirects]]
   from = "/"
-  to = "/dist/index.ts"
+  to = "/index.ts"
   status = 200
