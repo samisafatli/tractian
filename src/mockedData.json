@@ -1,0 +1,46 @@
+[
+  {
+    "_id": "63ad88a98e405dfd4a294506",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdiC9WgHmBy8U-5h4cjIw-PEYZVuDUi8JvErYD3Sr9mo5UnmXh_1d6m8_DuUqdKIvLbKk&usqp=CAU",
+    "name": "Robot",
+    "description": "A simple robot",
+    "model": "X0123",
+    "owner": "Google",
+    "status": "Running",
+    "healthLevel": "95%",
+    "__v": 0
+  },
+  {
+    "_id": "63ad89038e405dfd4a294508",
+    "image": "https://quatrorodas.abril.com.br/wp-content/uploads/2020/10/ev-west2-e1601672977840.jpg?quality=70&strip=info",
+    "name": "Motor XAS132",
+    "description": "A nice motor",
+    "model": "8123XSA",
+    "owner": "Tesla",
+    "status": "Alerting",
+    "healthLevel": "93%",
+    "__v": 0
+  },
+  {
+    "_id": "63ad89588e405dfd4a29450a",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdiC9WgHmBy8U-5h4cjIw-PEYZVuDUi8JvErYD3Sr9mo5UnmXh_1d6m8_DuUqdKIvLbKk&usqp=CAU",
+    "name": "Laptop",
+    "description": "A cool laptop",
+    "model": "8123XSA",
+    "owner": "HP",
+    "status": "Stopped",
+    "healthLevel": "0%",
+    "__v": 0
+  },
+  {
+    "_id": "63ad8a498e405dfd4a294514",
+    "image": "https://fujiokadistribuidor.vteximg.com.br/arquivos/ids/156476",
+    "name": "Pendrive",
+    "description": "A ordinary pendrive",
+    "model": "LKsa",
+    "owner": "FZM",
+    "status": "Running",
+    "healthLevel": "99%",
+    "__v": 0
+  }
+]
