@@ -1,7 +1,6 @@
 import mongoose from "mongoose"
 import { Response, Request, NextFunction } from 'express'
 import { BadRequestError } from "../helper/APIError"
-import mockedData from '../mockedData.json'
 const Asset = mongoose.model('Asset')
 
 export const storeAsset = async (req: Request, res: Response, next: NextFunction) => {
@@ -14,7 +13,6 @@ export const storeAsset = async (req: Request, res: Response, next: NextFunction
 
 export const showAssets = async (req: Request, res: Response) => {
     const asset = await Asset.find()
-    if (asset.length == 0) return mockedData
     return res.json(asset)
 }
 
